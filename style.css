@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient( 105deg, rgba(17, 17, 17, 1) 45%, rgba(20, 20, 20, 0.3)), url(/images/pexels-pixabay-358636.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+
+header {
+    display: flex;
+    height: 7vh;
+    padding: 30px 0 0 30px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 88vh;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 200px;
+
+}
+
+.texto h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Cabin', sans-serif;
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.texto button {
+    padding: 10px 20px;
+    background-color: #ff585d;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.fundo-foto img {
+    max-width: 475px;
+    max-height: 900px;
+    width: auto;
+    height: auto;
+}
+
